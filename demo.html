@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        ĐỒNG BỘ VÀ BẤT ĐỒNG BỘ
+        Đồng bộ:synchromous
+        Bất đồng bộ:asynchromous
+        Javascript là 1 ngông ngữ đơn luồng ,tức là chạy 1 luồng duy nhất luông code chạy từ trên xuống
+        dưới
+        Q/A:tại sao JS không đa luồng mà chỉ đơn luông thôi??
+        -Khi gặp các tác vụ cần thời gian xử lý(chọc vào database,)
+        -Cách giải quyết '.,' tác vụ bất đồng bộ
+        -1 callback:là hàm đc truyền vào làm đối số
+        -2 promise
+        -3 asyn-await
+          
+        -9 8 7  1 1 1   
+       
+     -->
+     <script>
+        console.log(1);
+        setTimeout(function(e){
+            console.log(2);
+        },1000);
+        console.log(3);
+        function xinSDT(){
+            console.log('');
+        }
+     </script>
+</body>
+</html>
